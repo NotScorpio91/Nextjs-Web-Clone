@@ -2,7 +2,13 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+       inter: ["inter"],
+       blinker: ["blinker"],
+       roboto: ["roboto"]
+      }
+    },
   },
   plugins: [],
 }
