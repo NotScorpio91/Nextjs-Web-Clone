@@ -718,10 +718,6 @@ video {
   font-weight: 700;
 }
 
-.font-extrabold{
-  font-weight: 800;
-}
-
 .font-semibold{
   font-weight: 600;
 }
@@ -748,6 +744,11 @@ video {
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
+.text-gray-500{
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+
 .text-gray-700{
   --tw-text-opacity: 1;
   color: rgb(55 65 81 / var(--tw-text-opacity));
@@ -756,10 +757,6 @@ video {
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.opacity-40{
-  opacity: 0.4;
 }
 
 .hover\:border-blue-700:hover{
@@ -779,6 +776,10 @@ video {
 
 .hover\:opacity-70:hover{
   opacity: 0.7;
+}
+
+.hover\:opacity-90:hover{
+  opacity: 0.9;
 }
 
 .focus\:border-blue-700:focus{
@@ -816,19 +817,14 @@ video {
     padding: 0px;
   }
 
-  .md\:py-12{
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-  }
-
   .md\:py-20{
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
 
-  .md\:text-2xl{
-    font-size: 1.5rem;
-    line-height: 2rem;
+  .md\:py-8{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 
   .md\:text-8xl{
@@ -921,11 +917,6 @@ video {
     justify-content: space-between;
   }
 
-  .lg\:text-3xl{
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
-
   .lg\:text-8xl{
     font-size: 6rem;
     line-height: 1;
@@ -939,9 +930,9 @@ video {
     cursor: text;
   }
 
-  .lg\:hover\:text-gray-600:hover{
+  .lg\:hover\:text-black:hover{
     --tw-text-opacity: 1;
-    color: rgb(75 85 99 / var(--tw-text-opacity));
+    color: rgb(0 0 0 / var(--tw-text-opacity));
   }
 }
 
