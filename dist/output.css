@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Blinker:wght@800&family=Inter&display=swap');
 
@@ -682,6 +682,26 @@ video {
   padding-bottom: 0.5rem;
 }
 
+.py-44{
+  padding-top: 11rem;
+  padding-bottom: 11rem;
+}
+
+.py-32{
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.py-7{
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
+}
+
+.py-10{
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
 .text-center{
   text-align: center;
 }
@@ -917,6 +937,11 @@ video {
     justify-content: space-between;
   }
 
+  .lg\:py-32{
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+
   .lg\:text-8xl{
     font-size: 6rem;
     line-height: 1;
@@ -940,5 +965,10 @@ video {
   .\32xl\:py-32{
     padding-top: 8rem;
     padding-bottom: 8rem;
+  }
+
+  .\32xl\:py-44{
+    padding-top: 11rem;
+    padding-bottom: 11rem;
   }
 }
