@@ -52,9 +52,9 @@
   </header>
   <hr>
   <!-- =========main data===========  -->
- <main class=" flex flex-col lg:flex-row justify-center items-center self-center py-10 ">
+ <main class=" flex flex-col lg:flex-row justify-center items-center self-center lg:py-10 ">
    <div class="main heading lg:my-auto lg:mx-auto">
-     <h1 class="text-black  py-16 font-inter text-7xl text-center  lg:hover:cursor-text lg:flex lg:justify-center lg:items-center md:text-8xl lg:text-8xl font-black md:py-20  "><span class="bg-gradient-to-t from-black to-[#383838] text-transparent bg-clip-text">Scale Up Online.</span></h1>
+     <h1 class="text-black  py-12 sm:py-16 font-inter text-7xl text-center  lg:hover:cursor-text lg:flex lg:justify-center lg:items-center md:text-8xl lg:text-8xl font-black md:py-20  "><span class="bg-gradient-to-t from-black to-[#383838] text-transparent bg-clip-text">Scale Up Online.</span></h1>
      <p class="text-[#666666] text-center tracking-normal mx-2 text-2xl font-inter  lg:hover:cursor-text lg:flex lg:justify-center md::items-center md:py-8">We’re a team of professionals supporting startups to scale up their businesses online.</p>
  
      <!-- ===========main btn=============== -->
@@ -69,105 +69,341 @@
    </div>
  </main>
   <!-- ==========Second Page=============== -->
-  <div class="flex space-x-2 flex-col  text-center lg:flex-row lg:justify-center py-16 lg:pt-32  ">
-    <h2 class="text-2xl font-inter font-bold bg-gradient-to-t from-black to-[#383838] text-transparent bg-clip-text  sm:text-3xl cursor-text lg:text-4xl ">What's in Next.js?
+  <div class="flex space-x-2 flex-col  text-center  py-16  sm:hidden ">
+    <h2 class="text-2xl font-inter font-bold bg-gradient-to-t from-black to-[#383838] text-transparent bg-clip-text   cursor-text  ">What's in Next.js?
     </h2>
-    <p class="text-[#666666] sm:text-lg pt-[3px] font-inter lg:text-2xl">All the tools you need to make the Web. Faster.</p>
-  </div>
-  <!-- ==========Cards=============== -->
-   <div class=" Cards grid grid-row-3  sm:grid-cols-2 lg:grid-cols-3 xl:px-24 2xl:px-60 2xl:mx-[69px] ">
+    <p class="text-[#666666]  pt-[3px] font-inter px-2 ">All the tools you need to make the Web. Faster.</p>
+  
+  <!-- ==========Small device Cards=============== -->
+   <div class=" Cards grid grid-row-3 ">
    
    
    <div class="Card1 py-10 ">
-   <div class="rounded overflow-hidden  shadow-lg mx-5 sm:mx-8">
+   <div class="rounded overflow-hidden  shadow-lg mx-5 ">
    <img class=" w-full  " src="/Image/Cards/card1.gif" alt="Screen">
-   <h1 class="text-left font-inter font-bold bg-gradient-to-t from-black to-[#383838] text-transparent bg-clip-text  cursor-text  pt-2 lg:text-2xl lg:pt-[45px]">Built-in Optimizations</h1>
-   <p class="text-left text-[#666666] text-sm lg:text-base  lg:pt-1 ">Automatic Image, Font, and Script Optimizations for improved UX and Core Web Vitals.</p>
+   <h1 class="text-left font-inter text-black    pt-2  ">Built-in Optimizations</h1>
+   <p class="text-left text-[#787878] text-sm   ">Automatic Image, Font, and Script Optimizations for improved UX and Core Web Vitals.</p>
+
    </div>
    </div>
    
    
    <div class=" Card2 py-10 ">
-   <div class="rounded overflow-hidden  shadow-lg mx-5 sm:mx-8 ">
+   <div class="rounded overflow-hidden  shadow-lg mx-5  ">
    <img class="w-full" src="/Image/Cards/card2.gif" alt="Screen">
-   <h1 class="text-left font-inter font-bold bg-gradient-to-t from-black to-[#383838] text-transparent bg-clip-text   cursor-text pt-2 lg:text-2xl lg:pt-[40px]">Dynamic HTML Streaming</h1>
-   <p class="text-left text-[#666666] text-sm  lg:text-base lg:pt-1 ">Instantly stream UI from the server, integrated with the App Router and React Suspense.</p>
+   <h1 class="text-left font-inter  text-black    pt-2 ">Dynamic HTML Streaming</h1>
+   <p class="text-left text-[#787878] text-sm  ">Instantly stream UI from the server, integrated with the App Router and React Suspense.</p>
    </div>
    </div>
    
    
    <div class="Card3 py-[35px] px-5 ">
-   <div class="rounded overflow-hidden  shadow-lg  sm:mx-8">
+   <div class="rounded overflow-hidden  shadow-lg  ">
    <img class="w-full" src="/Image/Cards/card3.gif" alt="Screen">
-   <h1 class="text-left font-inter font-bold bg-gradient-to-t from-black to-[#383838] text-transparent bg-clip-text   cursor-text pt-5  lg:text-2xl"> React Server Components</h1>
-   <p class="text-left text-[#666666] text-sm  lg:text-base  lg:pt-1">Add components without sending additional client-side JavaScript. Built on the latest React features.</p>
+   <h1 class="text-left font-inter  text-black    pt-5  "> React Server Components</h1>
+   <p class="text-left text-[#787878] text-sm  ">Add components without sending additional client-side JavaScript. Built on the latest React features.</p>
    </div>
-   </div>
-   <div class="Small Cards md:grid md:grid-col ">
+  </div>
+  <!-- ==========Small Cards=============== -->
+   
     <div class="Card1 py-2 px-5 ">
-      <div class="rounded overflow-hidden  shadow-lg  sm:mx-8">
-      <h1 class="text-left font-inter font-bold bg-gradient-to-t from-black to-[#383838] text-transparent bg-clip-text   cursor-text pt-5  lg:text-2xl"> Data Fetching</h1>
-      <p class="text-left hidden text-[#666666] text-sm  lg:text-base  lg:pt-1">Add components without sending additional client-side JavaScript. Built on the latest React features.</p>
+      <div class="rounded overflow-hidden  shadow-lg  ">
+      <h1 class="text-left font-inter  text-black    pt-5  "> Data Fetching</h1>
+  
       </div>
       </div>
   
   <div class="Small Cards">
     <div class="Card2 py-2 px-5 ">
-      <div class="rounded overflow-hidden  shadow-lg  sm:mx-8">
-      <h1 class="text-left font-inter font-bold bg-gradient-to-t from-black to-[#383838] text-transparent bg-clip-text   cursor-text pt-5  lg:text-2xl"> Node.js & Edge Runtimes  </h1>
-      <p class="text-left hidden text-[#666666] text-sm  lg:text-base  lg:pt-1">Add components without sending additional client-side JavaScript. Built on the latest React features.</p>
+      <div class="rounded overflow-hidden  shadow-lg  ">
+      <h1 class="text-left font-inter  text-black    pt-5  "> Node.js & Edge Runtimes  </h1>
       </div>
       </div>
   </div>
-    <!-- ==========Small Cards=============== -->
-   
-    </div>
+    
+    
     <div class="Small Cards">
       <div class="Card3 py-2 px-5 ">
-        <div class="rounded overflow-hidden  shadow-lg  sm:mx-8">
-        <h1 class="text-left font-inter font-bold bg-gradient-to-t from-black to-[#383838] text-transparent bg-clip-text   cursor-text pt-5  lg:text-2xl"> Advanced Routing & Nested Layouts</h1>
-        <p class="text-left hidden text-[#666666] text-sm  lg:text-base  lg:pt-1">Add components without sending additional client-side JavaScript. Built on the latest React features.</p>
+        <div class="rounded overflow-hidden  shadow-lg  ">
+        <h1 class="text-left font-inter  text-black    pt-5  "> Advanced Routing & Nested Layouts</h1>
+
         </div>
         </div>
     </div>
     <div class="Small Cards">
       <div class="Card4 py-2 px-5 ">
-        <div class="rounded overflow-hidden  shadow-lg  sm:mx-8">
-        <h1 class="text-left font-inter font-bold bg-gradient-to-t from-black to-[#383838] text-transparent bg-clip-text   cursor-text pt-5  lg:text-2xl"> CSS Support</h1>
-        <p class="text-left hidden text-[#666666] text-sm  lg:text-base  lg:pt-1">Add components without sending additional client-side JavaScript. Built on the latest React features.</p>
+        <div class="rounded overflow-hidden  shadow-lg  ">
+        <h1 class="text-left font-inter  text-black    pt-5  "> CSS Support</h1>
+
         </div>
         </div>
     </div>
     <div class="Small Cards">
       <div class="Card5 py-2 px-5 ">
-        <div class="rounded overflow-hidden  shadow-lg  sm:mx-8">
-        <h1 class="text-left font-inter font-bold bg-gradient-to-t from-black to-[#383838] text-transparent bg-clip-text   cursor-text pt-5  lg:text-2xl"> Route Handlers</h1>
-        <p class="text-left hidden text-[#666666] text-sm  lg:text-base  lg:pt-1">Add components without sending additional client-side JavaScript. Built on the latest React features.</p>
+        <div class="rounded overflow-hidden  shadow-lg  ">
+        <h1 class="text-left font-inter  text-black    pt-5  "> Route Handlers</h1>
+
         </div>
         </div>
     </div>
     <div class="Small Cards">
       <div class="Card1 py-2 px-5 ">
-        <div class="rounded overflow-hidden  shadow-lg  sm:mx-8">
-        <h1 class="text-left font-inter font-bold bg-gradient-to-t from-black to-[#383838] text-transparent bg-clip-text   cursor-text pt-5  lg:text-2xl"> Middleware</h1>
-        <p class="text-left hidden text-[#666666] text-sm  lg:text-base  lg:pt-1">Add components without sending additional client-side JavaScript. Built on the latest React features.</p>
+        <div class="rounded overflow-hidden  shadow-lg  ">
+        <h1 class="text-left font-inter  text-black    pt-5  "> Middleware</h1>
+
         </div>
         </div>
     </div>
     <div class="Small Cards">
       <div class="Card1 py-2 px-5 ">
-        <div class="rounded overflow-hidden  shadow-lg  sm:mx-8">
-        <h1 class="text-left font-inter font-bold bg-gradient-to-t from-black to-[#383838] text-transparent bg-clip-text   cursor-text pt-5  lg:text-2xl"> Client and Server Rendering</h1>
-        <p class="text-left hidden text-[#666666] text-sm  lg:text-base  lg:pt-1">Add components without sending additional client-side JavaScript. Built on the latest React features.</p>
+        <div class="rounded overflow-hidden  shadow-lg  ">
+        <h1 class="text-left font-inter  text-black    pt-5  "> Client and Server Rendering</h1>
         </div>
         </div>
     </div>
-   </div>
+    <div class="last Card">
+      <div class="Card1 py-2 mx-3 bg-[#262626] pt-24 rounded-xl my-[22px] ">
+        <div class="rounded-lg overflow-hidden  shadow-lg ml-5 ">
+        <h1 class="text-left font-inter  text-white  pt-5  text-xl py-2 font-bold "> Next.js 13</h1>
+        <p class="text-left  text-white text-sm font-inter   font-semibold max-w-[250px] ">The power of full-stack to the frontend. Read the release notes.</p>
+        
+        <button class=" flex justify-center items-center w-8 h-8 float-right rounded-full mx-[18px] -my-8 bg-[#454545]  "> <svg class="" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><style>svg{fill:#ffffff}</style><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
+       </button>
+        </div>
+        </div>
+    </div>
   
+   </div>
+  </div>
+ <!-- ==========Med device Cards=============== -->
+ <div class="sm:flex space-x-2 flex-col  text-center py-16  hidden cd:hidden">
+  <h2 class="text-2xl font-inter font-bold bg-gradient-to-t from-black to-[#383838] text-transparent bg-clip-text  sm:text-3xl cursor-text">What's in Next.js?
+  </h2>
+  <p class="text-[#666666] sm:text-lg pt-3 pb-8 font-inter lg:text-2xl">All the tools you need to make the Web. Faster.</p>
+  <div class="sm:grid   sm:grid-cols-2 cd:hidden">
+  <!-- ==========L.H.S=============== -->
+   <div class="left">
+    <div class="Card1 py-2 ">
+      <div class="rounded overflow-hidden  shadow-lg mx-5 ">
+      <img class=" w-full  " src="/Image/Cards/card1.gif" alt="Screen">
+      <h1 class="text-left font-inter text-black  pt-2 font-bold ">Built-in Optimizations</h1>
+      <p class="text-left text-[#787878] text-sm ">Automatic Image, Font, and Script Optimizations for improved UX and Core Web Vitals.</p>
+      </div>
+      </div>
+        
+      <div class="Card3 py-2 px-5 ">
+        <div class="rounded overflow-hidden  shadow-lg  ">
+        <img class="w-full" src="/Image/Cards/card3.gif" alt="Screen">
+        <h1 class="text-left font-inter  text-black pt-5 font-bold"> React Server Components</h1>
+        <p class="text-left text-[#787878] text-sm  ">Add components without sending additional client-side JavaScript. Built on the latest React features.</p>
+        </div>
+       </div>
+
+       <div class="Card1 py-2 px-5 ">
+        <div class="rounded overflow-hidden  shadow-lg  ">
+        <h1 class="text-left font-inter font-bold bg-gradient-to-t from-black to-[#383838] text-transparent bg-clip-text   cursor-text pt-5  "> Data Fetching</h1>
+        <p class="text-left  text-[#666666] text-sm    ">Make your React component async and await your data. Next.js supports both server and client data fetching.</p>
+        </div>
+        </div>
+
+        <div class="Card1 py-2 px-5 ">
+          <div class="rounded overflow-hidden  shadow-lg  ">
+          <h1 class="text-left font-inter font-bold bg-gradient-to-t from-black to-[#383838] text-transparent bg-clip-text   cursor-text pt-5  ">Node.js & Edge Runtimes</h1>
+          <p class="text-left  text-[#666666] text-sm">Build scalable solutions with Serverless functions, and deliver fast dynamic, personalized content with the Edge.</p>
+          </div>
+          </div>
+
+          <div class="Card1 py-2 px-5 ">
+            <div class="rounded overflow-hidden  shadow-lg">
+            <h1 class="text-left font-inter  bg-gradient-to-t from-black to-[#383838] text-transparent bg-clip-text   cursor-text pt-5 font-bold ">Advanced Routing & Nested Layouts</h1>
+            <p class="text-left  text-[#666666] text-sm">Create routes using the file system, including support for more advanced routing patterns and UI layouts.</p>
+            </div>
+            </div>
+
+           
+
+   </div>
+  <!-- ==========R.H.S=============== -->
+   <div class="right">
+
+    <div class=" Card2 py-2 ">
+      <div class="rounded overflow-hidden  shadow-lg mx-5 ">
+      <img class="w-full" src="/Image/Cards/card2.gif" alt="Screen">
+      <h1 class="text-left font-inter  text-black pt-2 font-bold ">Dynamic HTML Streaming</h1>
+      <p class="text-left text-[#787878] text-sm  ">Instantly stream UI from the server, integrated with the App Router and React Suspense.</p>
+      </div>
+      </div>
+      
+      <div class="Small Cards">
+        <div class="Card4 py-2 px-5 ">
+          <div class="rounded overflow-hidden  shadow-lg">
+          <h1 class="text-left font-inter  text-black pt-5 font-bold"> CSS Support</h1>
+          <p class="text-left hidden text-[#666666] text-sm  lg:text-base  lg:pt-1 sm:block">Style your application with your favorite tools, including support for CSS Modules, Sass, Tailwind CSS, styled-jsx, and more.</p>
+          </div>
+          </div>
+      </div>
+
+      <div class="Small Cards">
+        <div class="Card5 py-2 px-5 ">
+          <div class="rounded overflow-hidden  shadow-lg  ">
+          <h1 class="text-left font-inter  text-black pt-5 font-bold"> Route Handlers</h1>
+          <p class="text-left hidden text-[#666666] text-sm  lg:text-base  lg:pt-1 sm:block">Build API endpoints to securely connect with third party services and consume from your frontend.</p>
+          </div>
+          </div>
+      </div>
 
 
+      <div class="Small Cards">
+        <div class="Card1 py-2 px-5 ">
+          <div class="rounded overflow-hidden  shadow-lg  ">
+          <h1 class="text-left font-inter  text-black pt-5 font-bold"> Middleware</h1>
+          <p class="text-left hidden text-[#666666] text-sm  lg:text-base  lg:pt-1 sm:block">Take control of the incoming request. Use code to define routing and access rules for authentication, experimentation, and internationalization.</p>
+          </div>
+          </div>
+      </div>
+      <div class="Small Cards">
+        <div class="Card1 py-2 px-5 ">
+          <div class="rounded overflow-hidden  shadow-lg">
+          <h1 class="text-left font-inter  text-black pt-5 font-bold"> Client and Server Rendering</h1>
+          <p class="text-left hidden text-[#666666] text-sm  lg:text-base  lg:pt-1 sm:block">Client and Server Rendering</p>
+          </div>
+          </div>
+      </div>
+
+      <div class="last Card">
+        <div class="Card1 py-2 mx-3 bg-[#262626] pt-28 rounded-xl my-[22px] ">
+          <div class="rounded-lg overflow-hidden  shadow-lg ml-5 ">
+          <h1 class="text-left font-inter  text-white  pt-5  text-xl py-2 font-bold "> Next.js 13</h1>
+          <p class="text-left  text-white text-sm font-inter   font-semibold max-w-[250px] ">The power of full-stack to the frontend. Read the release notes.</p>
+          
+          <button class=" flex justify-center items-center w-8 h-8 float-right rounded-full mx-[18px] -my-8 bg-[#454545]  "> <svg class="" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><style>svg{fill:#ffffff}</style><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
+         </button>
+          </div>
+          </div>
+      </div>
+       
+   </div>
+  </div>
+  </div>
+ <!-- ==========large device Cards=============== -->
+ <div class="cd:flex space-x-2 flex-col  text-center py-16  hidden ">
+  <h2 class="text-2xl font-inter font-bold bg-gradient-to-t from-black to-[#383838] text-transparent bg-clip-text  sm:text-3xl cursor-text">What's in Next.js?
+  </h2>
+  <p class="text-[#666666] sm:text-lg pt-3 pb-8 font-inter lg:text-2xl">All the tools you need to make the Web. Faster.</p>
+  <div class="cd:grid   sm:grid-cols-3 hidden px-16">
+  <!-- ==========1th Column=============== -->
+   <div class="1th Column">
+    <div class="Card1 pt-7 ">
+      <div class="rounded overflow-hidden  shadow-lg mx-5 ">
+      <img class=" w-full  " src="/Image/Cards/card1.gif" alt="Screen">
+      <h1 class="text-left font-inter text-black  pt-[51px] font-bold ">Built-in Optimizations</h1>
+      <p class="text-left text-[#787878] text-sm ">Automatic Image, Font, and Script Optimizations for improved UX and Core Web Vitals.</p>
+      </div>
+      </div>
+        
+      
+
+       <div class="Card1 py-6 px-5 ">
+        <div class="rounded overflow-hidden  shadow-lg  ">
+        <h1 class="text-left font-inter font-bold bg-gradient-to-t from-black to-[#383838] text-transparent bg-clip-text   cursor-text pt-5  "> Data Fetching</h1>
+        <p class="text-left  text-[#666666] text-sm    ">Make your React component async and await your data. Next.js supports both server and client data fetching.</p>
+        </div>
+        </div>
+
+        <div class="Card1 py-6 px-5 ">
+          <div class="rounded overflow-hidden  shadow-lg  ">
+          <h1 class="text-left font-inter font-bold bg-gradient-to-t from-black to-[#383838] text-transparent bg-clip-text   cursor-text pt-5  ">Node.js & Edge Runtimes</h1>
+          <p class="text-left  text-[#666666] text-sm">Build scalable solutions with Serverless functions, and deliver fast dynamic, personalized content with the Edge.</p>
+          </div>
+          </div>
+
+          <div class="Card1 py-6 px-5 ">
+            <div class="rounded overflow-hidden  shadow-lg">
+            <h1 class="text-left font-inter  bg-gradient-to-t from-black to-[#383838] text-transparent bg-clip-text   cursor-text pt-5 font-bold ">Advanced Routing & Nested Layouts</h1>
+            <p class="text-left  text-[#666666] text-sm">Create routes using the file system, including support for more advanced routing patterns and UI layouts.</p>
+            </div>
+            </div>
+
+           
+
+   </div>
+  <!-- ==========2th Column=============== -->
+   <div class="2th Column">
+
+    <div class=" Card2 pt-7 ">
+      <div class="rounded overflow-hidden  shadow-lg mx-5 ">
+      <img class="w-full" src="/Image/Cards/card2.gif" alt="Screen">
+      <h1 class="text-left font-inter  text-black pt-[45px] font-bold ">Dynamic HTML Streaming</h1>
+      <p class="text-left text-[#787878] text-sm  ">Instantly stream UI from the server, integrated with the App Router and React Suspense.</p>
+      </div>
+      </div>
+      
+      <div class="Small Cards">
+        <div class="Card4 py-2 px-5 ">
+          <div class="rounded overflow-hidden  shadow-lg">
+          <h1 class="text-left font-inter  text-black pt-5 font-bold"> CSS Support</h1>
+          <p class="text-left hidden text-[#666666] text-sm  lg:text-base  lg:pt-1 sm:block">Style your application with your favorite tools, including support for CSS Modules, Sass, Tailwind CSS, styled-jsx, and more.</p>
+          </div>
+          </div>
+      </div>
+
+      <div class="Small Cards">
+        <div class="Card5 py-2 px-5 ">
+          <div class="rounded overflow-hidden  shadow-lg  ">
+          <h1 class="text-left font-inter  text-black pt-5 font-bold"> Route Handlers</h1>
+          <p class="text-left hidden text-[#666666] text-sm  lg:text-base  lg:pt-1 sm:block">Build API endpoints to securely connect with third party services and consume from your frontend.</p>
+          </div>
+          </div>
+      </div>
 
 
+      <div class="Small Cards">
+        <div class="Card1 py-6 px-5 ">
+          <div class="rounded overflow-hidden  shadow-lg  ">
+          <h1 class="text-left font-inter  text-black pt-5 font-bold"> Middleware</h1>
+          <p class="text-left hidden text-[#666666] text-sm  lg:text-base  lg:pt-1 sm:block">Take control of the incoming request. Use code to define routing and access rules for authentication, experimentation, and internationalization.</p>
+          </div>
+          </div>
+      </div>
+      
+
+      
+       
+   </div>
+   <!-- ==========3th Column=============== -->
+   <div class="3th Column">
+    <div class="Card3  px-5 ">
+      <div class="rounded overflow-hidden  shadow-lg  ">
+      <img class="w-full" src="/Image/Cards/card3.gif" alt="Screen">
+      <h1 class="text-left font-inter  text-black pt-5 font-bold"> React Server Components</h1>
+      <p class="text-left text-[#787878] text-sm  ">Add components without sending additional client-side JavaScript. Built on the latest React features.</p>
+      </div>
+     </div>
+
+     <div class="Small Cards">
+      <div class="Card1 py-6 px-5 ">
+        <div class="rounded overflow-hidden  shadow-lg">
+        <h1 class="text-left font-inter  text-black pt-5 font-bold"> Client and Server Rendering</h1>
+        <p class="text-left hidden text-[#666666] text-sm  lg:text-base  lg:pt-1 sm:block">Client and Server Rendering</p>
+        </div>
+        </div>
+    </div>
+
+    <div class="last Card">
+      <div class="Card1 py-6 mx-3 bg-[#262626] pt-28 rounded-xl my-[22px] ">
+        <div class="rounded-lg overflow-hidden  shadow-lg ml-5 ">
+        <h1 class="text-left font-inter  text-white  pt-5  text-xl py-2 font-bold "> Next.js 13</h1>
+        <p class="text-left  text-white text-sm font-inter   font-semibold max-w-[250px] ">The power of full-stack to the frontend. Read the release notes.</p>
+        
+        <button class=" flex justify-center items-center w-8 h-8 float-right rounded-full mx-[18px] -my-8 bg-[#454545]  "> <svg class="" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><style>svg{fill:#ffffff}</style><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
+       </button>
+        </div>
+        </div>
+
+
+   </div>
+  </div>
+  </div>
 
 
 
