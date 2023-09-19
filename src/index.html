@@ -12,10 +12,11 @@
   <hr>
   <header>
    <!-- =========Logo=========== -->
-   <nav class="flex items-center justify-between self-end flex-wrap  bg-transparent p-4  lg:sticky lg::mx-14 ">
+   <div class="2xl:flex 2xl:justify-center 2xl:items-center">
+   <nav class="flex items-center justify-between self-end flex-wrap  bg-transparent p-4  lg:sticky lg::mx-14  ">
      <div class="flex items-center flex-shrink-0 text-black lg:mx-10  lg:hover:cursor-pointer">
        <svg class="fill-current h-8 w-8 mr-2" width="54" height="54" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg"><path d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z"/></svg>
-       <span class="font-semibold text-xl tracking-tight text-black font-inter lg:hover:cursor-pointer">Teksol</span>
+       <span class="font-semibold text-xl tracking-tight text-black font-inter lg:hover:cursor-pointer ">Teksol</span>
      </div>
      <!-- ===========Mobile Hamburger========= -->
      <div class="block lg:hidden hover:opacity-70">
@@ -43,13 +44,14 @@
          </a>
        </div>
        <!-- ============navbar button==========  -->
-       <button class="bg-black hover:opacity-80 text-white font-bold py-2 px-3 rounded inline-flex items-center uppercase self-center font-inter ">
+       <button class="bg-black hover:opacity-80 text-white font-bold py-2 px-3 rounded inline-flex items-center uppercase self-center font-inter ml-[1000px]">
          <span>Schedule Meeting</span>
        <div class="flex justify-center mx-2 items-center h-5  float-right"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><style>svg{fill:#e6e7eb}</style><path d="M128 0c17.7 0 32 14.3 32 32V64H288V32c0-17.7 14.3-32 32-32s32 14.3 32 32V64h48c26.5 0 48 21.5 48 48v48H0V112C0 85.5 21.5 64 48 64H96V32c0-17.7 14.3-32 32-32zM0 192H448V464c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V192zm64 80v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H80c-8.8 0-16 7.2-16 16zm128 0v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H208c-8.8 0-16 7.2-16 16zm144-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H336zM64 400v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H80c-8.8 0-16 7.2-16 16zm144-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H208zm112 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H336c-8.8 0-16 7.2-16 16z"/></svg></div>
        </button> 
      </div>
    </nav>
   </header>
+</div>
   <hr>
   <!-- =========main data===========  -->
  <main class=" flex flex-col lg:flex-row justify-center items-center self-center lg:py-10 ">
@@ -286,11 +288,13 @@
   </div>
   </div>
  <!-- ==========large device Cards=============== -->
- <div class="cd:flex space-x-2 flex-col  text-center py-16  hidden ">
-  <h2 class="text-2xl font-inter font-bold bg-gradient-to-t from-black to-[#383838] text-transparent bg-clip-text  sm:text-3xl cursor-text">What's in Next.js?
+ <div class="cd:flex space-x-2 flex-col text-center py-16 hidden "> 
+ <div class="flex justify-center py-11 ">
+  <h2 class="text-[32px] font-inter font-bold bg-gradient-to-t from-black to-[#383838] text-transparent bg-clip-text  sm:text-3xl cursor-text">What's in Next.js?
   </h2>
-  <p class="text-[#666666] sm:text-lg pt-3 pb-8 font-inter lg:text-2xl">All the tools you need to make the Web. Faster.</p>
-  <div class="cd:grid   sm:grid-cols-3 hidden px-16">
+  <p class="text-[#666666] mx-4 pt-[6px] pb-8 font-inter text-2xl y-10">All the tools you need to make the Web. Faster.</p>
+</div>
+  <div class="cd:grid   sm:grid-cols-3 hidden px-2 max-w-[1200px] self-center">
   <!-- ==========1th Column=============== -->
    <div class="1th Column">
     <div class="Card1 pt-7 ">
@@ -404,7 +408,8 @@
    </div>
   </div>
   </div>
-
+</div>
+</div>
 
 
 
