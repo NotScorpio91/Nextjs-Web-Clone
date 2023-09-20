@@ -31,6 +31,13 @@ module.exports = {
        roboto: ["roboto"]
       }
     },
+    variants:{
+      extend:{
+        display: ['group-focus'],
+        opacity: ['group-focus'],
+        inset: ['group-focus']
+      },
+    },
   },
   plugins: [],
 }
